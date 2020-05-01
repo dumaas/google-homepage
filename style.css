@@ -1,0 +1,403 @@
+/* HTML, Body, General attributes */
+    a {
+	color: #1a0dab;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.01) !important;
+	font-family: arial, sans-serif;
+    }
+    :visited {
+	color: rgb(211, 138, 138) !important!;
+    }
+    a:visited {
+	color: #609;
+    }
+    :link {
+	color: #8db2e5 !important;
+    }
+    * {
+	border-color: #555555 !important;
+    }
+    html {
+	font-size: small;
+	height: 100%;
+	margin: 0;
+	background-image: none !important;
+	color: #eeeeee !important;
+	background-color: #292929 !important;
+    }
+    body {
+	font-size: small;
+	background: #fff;
+	font-family: arial, sans-serif;
+	height: 100%;
+	margin: 0;
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+    }
+
+/* Misc Formatting */
+    /* Classes */
+	.TSPr2b {
+	    height: 1px;
+	    overflow: hidden;
+	    position: absolute;
+	    width: 1px;
+	}
+	.qosSob {
+	    font-family: Roboto;
+	}
+	.gb_4 {
+	    cursor: default;
+	    text-decoration: none;
+	    border: 1px solid #4285f4;
+	    font-weight: bold;
+	    outline: none;
+	    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	    display: inline-block;
+	    line-height: 28px;
+	    padding: 0 12px;
+	    border-radius: 2px;
+	}
+	.gb_og {
+	    display: inline-block;
+	    padding: 0 0 0 15px;
+	    position: relative;
+	    vertical-align: middle;
+	}	
+	.gb_wc {
+	    background-image: url('https://web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+	    background-size: 528px 68px;
+	}
+	.gb_D {
+	    cursor: pointer;
+	    text-decoration: none;
+	    background-position: -132px -38px;
+	    opacity: .55;
+	    display: inline-block;
+	    outline: none;
+	    vertical-align: middle;
+	    border-radius: 2px;
+	    box-sizing: border-box;
+	    height: 30px;
+	    width: 30px;
+	}	
+	.gb_Nf {
+	    position: relative;
+	}	
+	.gb_kd {
+	    padding-left: 0;
+	    padding: 0 0 0 15px;
+	    vertical-align: middle;
+	}
+	.gb_2c {
+	    line-height: normal;
+	    position: relative;
+	    text-align: left;
+	}	
+	.gb_g {
+	    text-decoration: none;
+	    display: inline-block;
+	    line-height: 24px;
+	    outline: none;
+	    vertical-align: middle;
+	}	
+	.gb_h {
+	    display: inline-block;
+	    padding-left: 15px;
+	    vertical-align: middle;
+	}	
+	.gb_fe {
+	    padding-right: 15px;
+	    line-height: normal;
+	    padding-right: 0;
+	}	
+	.gb_i {
+	    display: inline-block;
+	    flex: 0 0 auto;
+	    float: right;
+	    margin-left: 0 !important;
+	    margin-right: 0 !important;
+	}
+	.gb_Dg {
+	    white-space: nowrap;
+	    margin-left: 0 !important;
+	    margin-right: 0 !important;
+	}
+	.gb_Ra {
+	    min-width: 165px;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	    position: relative;
+	    text-align: right;
+	    justify-content: flex-end;
+	    z-index: 987;
+	}
+	
+    /* ID's */
+	#viewport {
+	    min-height: 100%;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	}
+	#gbw {
+	}
+	#hptl {
+	    display: inline-block;
+	    padding-left: 15px;
+	    opacity: 0.75;
+	}
+	#gb {
+	    top: 16px;
+	    position: relative;
+	    font-size: 13px;
+	}	
+
+/* Search Bar */
+    /* Classes */
+	div#searchform {
+	    min-width: 980px;
+	    z-index: 103;
+	}
+	.hp #searchform {
+	    position: absolute;
+	    top: 311px;
+	}
+	div#searchform.jhp {
+	    margin-top: 0;
+	}
+	.nojsv {
+	    visibility: hidden;
+	}
+	.sfbg {
+	    left: 0;
+	    position: absolute;
+	    width: 100%;
+	}
+	.sfbgg {
+	    min-width: 980px;
+	    height: 64px;
+	}
+	.tsf {
+	    background: none;
+	}
+	.A8SBwf {
+	    position: relative;
+	    margin: 0 auto;
+	    padding-top: 6px;
+	    width: 484px;
+	}
+	.gN089b {
+	    border: 1px solid #f2f2f2;
+	    border-radius: 4px;
+	    color: #5F6368;
+	    font-family: arial, sans-serif;
+	    font-size: 14px;
+	    margin: 11px 4px;
+	    padding: 0 16px;
+	    line-height: 27px;
+	    height: 36px;
+	    min-width: 54px;
+	    text-align: center;
+	    cursor: pointer;
+	    user-select: none;
+	}
+	.tfB0Bf {
+	    height: 70px;
+	}
+	.FPdoLc {
+	    padding-top: 18px;
+	    position: absolute;
+	    top: 53px;
+	    width: 487px;
+	    z-index: 0;
+	}
+	.RNNXgb {
+	    background: #fff;
+	    display: flex;
+	    border: 1px solid #dfe1e5;
+	    box-shadow: none;
+	    border-radius: 24px;
+	    z-index: 3;
+	    height: 44px;
+	    margin: 0 auto;
+	    width: 482px;
+	}
+	.SDkEP {
+	    flex: 1;
+	    display: flex;
+	    padding: 5px 8px 0 16px;
+	    padding-left: 14px;
+	}
+	.dRYYxd {
+	    display: flex;
+	    flex: 0 0 auto;
+	    margin-top: -5px;
+	    align-items: stretch;
+	    flex-direction: row;
+	}
+	.hpuQDe {
+	    flex: 1 0 auto;
+	    display: flex;
+	    cursor: pointer;
+	    align-items: center;
+	    border: 0;
+	    background: transparent;
+	    outline: none;
+	    padding: 0 8px;
+	    width: 24px;
+	    line-height: 44px;
+	}
+	.HPVvwb {
+	    background: url('https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+	    height: 24px;
+	    width: 24px;
+	    background-size: 24px;
+	    vertical-align: middle;
+	}
+	.zlasCe {
+	    display: inline-block;
+	    fill: currentColor;
+	    height: 24px;
+	    line-height: 24px;
+	    position: relative;
+	    width: 24px;
+	}
+	.magnify-sizing {
+	    display: block;
+	    height: 100%;
+	    width: 100%;
+	}
+	.wFncld {
+	    color: #9AA0A6;
+	    height: 20px;
+	    width: 20px;
+	    margin-top: 3px;
+	}
+	.hsuHs {
+	    margin: auto;
+	}
+	.iblpc {
+	    display: flex;
+	    align-items: center;
+	    padding-right: 13px;
+	    margin-top: -5px;
+	}
+	.a4bIc {
+	    display: flex;
+	    flex: 1;
+	    flex-wrap: wrap;
+	}
+	.vdLsw {
+	    color: transparent;
+	    flex: 100%;
+	    white-space: pre;
+	}
+	.gsfi {
+	    font: 16px arial, sans-serif;
+	    line-height: 34px;
+	    height: 34px !important;
+	}
+	.gLFyf {
+	    background-color: transparent;
+	    border: none;
+	    margin: 0;
+	    padding: 0;
+	    word-wrap: break-word;
+	    outline: none;
+	    display: flex;
+	    flex: 100%;
+	    margin-top: -37px;
+	}
+	}
+    /* ID's */
+	#tsf {
+	    max-width: none;
+	    width: 1139px;
+	    margin: 0 auto;
+	}
+	#searchform {
+	    width: 100%;
+	    position: absolute;
+	    top: 311px;
+	    min-width: 980px;
+	    z-index: 103;
+	    margin-top: 0;
+	}
+
+/* Main Content */
+    /* Classes */
+	.Fx4vi {
+	    padding-left: 27px;
+	    margin: 0 !important;
+	}
+	.b0KoTc {
+	    margin-left: 30px;
+	    text-align: left;
+	    padding-left: 27px;
+	    color: rgba(0,0,0,0.54)
+	}
+	.fbar {
+	    font-size: 14px;
+	    margin-left: -27px;
+	}
+	.EvHmz {
+	    bottom: 0;
+	    left: 0;
+	    position: absolute;
+	    right: 0;
+	}
+	.ctr-p {
+	    margin: 0 auto;
+	    min-width: 980px;
+	}
+	.big {
+	    min-width: 1139px;
+	}
+	.content {
+	    padding-bottom: 35px;
+	}
+    /* ID's */
+	#footc {
+	}
+	#fsl {
+	    margin-left: 30px;
+	    white-space: nowrap;
+	}	
+	#fsettl {
+	    color: #5f6368;
+	}
+	#fsr {
+	    margin-right: 30px;
+	    float: right;
+	    white-space: nowrap;
+	}
+	#fbar {
+	    background: #f2f2f2;
+	    line-height: 40px;
+	    min-width: 980px;
+	    border-top: 1px solid #e4e4e4;
+	}
+	#fbarcnt {
+	    display: block;
+	}
+	#footer {
+	    bottom: 0;
+	    font-size: 10pt;
+	    height: 35px;
+	    position: fixed;
+	    width: 100%;
+	}
+	#swml {
+	}
+	#prm-pt {
+	}
+	#lga {
+	    height: 233px;
+	    margin-top: 89px;
+	}
+	#main {
+	}
+	#body {
+	    display: block;
+	}
