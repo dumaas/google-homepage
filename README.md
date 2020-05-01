@@ -2,7 +2,7 @@
     My task was to deconstruct and rebuild the Google homepage with HTML and CSS. 
     Because I love to browse the web in dark-mode, I decided to rebuild the Google homepage in dark mode!
 
-![My first website](/home/dumaas/Documents/learning/the-odin-project/google-homepage/google-homepage-rebuilt.png)
+![My first website](google-homepage-rebuilt.png)
 
 ## Demonstrated Skills:
 * Familiarity with Firefox devtools
